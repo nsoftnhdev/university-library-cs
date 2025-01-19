@@ -4,7 +4,7 @@ import { users } from "@/database/schema";
 import { eq } from "drizzle-orm";
 import { sendEmail } from "@/lib/workflow";
 
-type UserState = "active" | "non-active";
+type UserState = "non-active" | "active";
 
 type InitialData = {
   email: string;
