@@ -5,7 +5,6 @@ import { eq } from "drizzle-orm";
 import { db } from "@/database/drizzle";
 import { hash } from "bcryptjs";
 import { signIn } from "@/auth";
-import header from "@/components/Header";
 import { headers } from "next/headers";
 import ratelimit from "@/lib/ratelimit";
 import { redirect } from "next/navigation";
